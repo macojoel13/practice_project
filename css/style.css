@@ -1,0 +1,27 @@
+.intro_firstpage {
+  text-align: center;
+}
+
+body {
+  background-color: #ff5500;
+}
+
+.bottomtext {
+  font-size: 38px;
+  color: white;
+  text-shadow: 4px 2px black;
+  text-align: center;
+}
+
+.pizzapng {
+  animation: pizzaframe 2s infinite;
+  animation-direction: alternate;
+  position: relative;
+}
+
+@keyframes pizzaframe {
+
+  from {transform: rotate(5deg);}
+  to   {transform: rotate(-5deg);}
+
+}
