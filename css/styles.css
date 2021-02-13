@@ -21,6 +21,7 @@ body {
   animation-direction: alternate;
   position: relative;
   align-content: centerclass="bottomtext";
+  z-index: 3;
 }
 
 @keyframes pizzaframe {
